@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunay Desai - Creative Developer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>    
+    <!-- Navigation -->
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Portfolio Website</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape">🚀</div>
+            <div class="shape">⚡</div>
+            <div class="shape">💡</div>
+        </div>
+        <div class="hero-content">
+            <h1>Sunay Desai</h1>
+            <p class="hero-subtitle">Creative Frontend Developer & UI Designer</p>
+            <a href="#projects" class="cta-button">View My Work</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section fade-in">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <h3>Hi, I'm Sunay!</h3>
+                <p>I'm a passionate frontend developer with a keen eye for design and a love for creating intuitive user experiences. With 1+ year of experience in web development, I specialize in modern JavaScript frameworks and responsive design.</p>
+                <p>When I'm not coding, you can find me exploring new design trends, contributing to open-source projects, or brewing the perfect cup of coffee.</p>
+            </div>
+            <div class="skills">
+                <div class="skill-card">
+                    <div class="skill-icon">🏗️</div>
+                    <h4>HTML</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🐍</div>
+                    <h4>Python</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">⚛️</div>
+                    <h4>React</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">📱</div>
+                    <h4>JavaScript</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h4>CSS</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔥</div>
+                    <h4>Node.js</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🗃️</div>
+                    <h4>SQL</h4>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-icon">🔧</div>
+                    <h4>Git</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects fade-in">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">🤖</div>
+                <div class="project-content">
+                    <h3>Nexus AI Bot</h3>
+                    <p>A responsive web-based AI assistant with text and voice interaction, powered by the Web Speech API for speech recognition and synthesis, capable of answering queries, performing actions, and simulating natural conversation.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">HTML</span>
+                        <span class="tech-tag">CSS</span>
+                        <span class="tech-tag">Javascript</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <div class="project-image">🧠</div>
+                <div class="project-content">
+                    <h3>Image Classifier Model</h3>
+                    <p>A binary image classification model to differentiate between AI-generated and real images, achieving 91% training accuracy and 85% test accuracy. The model is based on the LeViT architecture, trained using PyTorch with optimized preprocessing pipelines.</p>
+                    <div class="project-tech">
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">Numpy</span>
+                        <span class="tech-tag">Pandas</span>
+                        <span class="tech-tag">Grad-CAM</span>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact fade-in">
+        <h2 class="section-title" style="color: white;">Get In Touch</h2>
+        <div class="contact-content">
+            <div class="contact-info">
+                <h3>Let's work together!</h3>
+                <p>I'm always interested in new opportunities and exciting projects. Whether you have a question or just want to say hi, feel free to reach out!</p>
+                <div class="social-links">
+                    <a href="mailto:sunaymdesai@gmail.com" class="social-link" title="Email">📧</a>
+                    <a href="https://github.com/SunayDESAI" target="_blank" class="social-link" title="GitHub">🐙</a>
+                    <a href="https://www.instagram.com/5u_n4y_1907?igsh=bW1rd3cybHB6a2xw⁰" target="_blank" class="social-link" title="Instagram">📷</a>
+                    <a href="https://www.linkedin.com/in/sunaydesai" target="_blank" class="social-link" title="LinkedIn">💼</a>
+                </div>
+            </div>
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Sunay Desai. Crafted with ❤️ and lots of ☕</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
